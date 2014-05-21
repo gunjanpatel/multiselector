@@ -1,0 +1,78 @@
+/*   
+    This file is part of Multi Selector Month Picker.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+body{
+	background-color:#EFF0F4;	
+}
+
+#monthholder button {
+border: 0 none;
+cursor: pointer;
+font-weight: bold;
+padding: 0 15px 0 0;
+text-align: center;
+height: 30px;
+line-height: 30px;
+width: auto;
+margin-bottom: 10px;
+}
+
+button.rounded {
+background: transparent url( btn_right.png ) no-repeat scroll right top;
+clear: left;
+font-size: 0.8em;
+}
+
+button span {
+display: block;
+padding: 0 0 0 15px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.rounded span {
+background: transparent url( btn_left.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.rounded:hover {
+background-position: 100% -30px;
+}
+
+button.rounded:hover span {
+background-position: 0% -30px;
+}
+
+button::-moz-focus-inner {
+border: none;
+}
+
+div.monthholder{
+	padding:10px;	
+	border: 1px solid;
+	border-top:0px;
+	margin-left:0px;
+	margin-top: 0px;
+	position: absolute;
+	width: 300px;
+	background-color:#EDEFF4 !important; 	
+}
+
+#fieldkeyvalue{
+	width: 315px;
+}
