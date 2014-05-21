@@ -1,0 +1,75 @@
+/*   
+    This file is part of Multi Selector Month Picker.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+a {
+border: 0 none;
+cursor: pointer;
+font-weight: bold;
+padding: 0 15px 0 0;
+text-align: center;
+height: 30px;
+line-height: 30px;
+width: auto;
+}
+
+a.rounded {
+background: transparent url( btn_right.png ) no-repeat scroll right top;
+clear: left;
+font-size: 0.8em;
+font-family:Arial, Helvetica, sans-serif;
+padding:0px 0px 10px 0px;
+}
+
+a span {
+display: block;
+padding: 0 0 0 15px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+a.rounded span {
+background: transparent url( btn_left.png ) no-repeat scroll left top;
+color: #FFFFFF;
+width:55px;
+float: left;
+margin:10px 10px 10px 15px;
+padding:0px 10px 0px 10px;
+text-align:center;
+
+}
+ 
+a.rounded span:hover {
+background-position: 100% -30px;
+}
+
+a.rounded:hover span {
+background-position: 0% -30px;
+}
+
+a:-moz-focus-inner {
+border: none;
+}
+
+div.monthholder{
+	padding:10px;
+	border: 1px solid;
+	margin-left:0px;
+	margin-top: 10px;
+	position: absolute;
+	background-color:#EDEFF4 !important; 	
+}
